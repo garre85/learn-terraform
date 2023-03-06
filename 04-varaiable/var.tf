@@ -46,3 +46,7 @@ output "sample3" {
 #inputs from .tf files
 
 variable "sample4" {}
+
+output "sample4" {
+  value = "var.sample4"
+}
