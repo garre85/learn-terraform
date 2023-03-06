@@ -13,6 +13,9 @@
 variable "sample1"{
   default = "Hello sample1"
 }
+output "sample1" {
+  value = "var.sample1"
+}
 
 #List variable type
 variable "sample2" {
@@ -22,6 +25,9 @@ variable "sample2" {
       true
   ]
 }
+output "sample2" {
+  value = "var.sample2"
+}
 
 #Map variable type
 variable "sample3" {
@@ -30,4 +36,8 @@ variable "sample3" {
     number = 1000
     boolean= true
   }
+}
+
+output "sample3" {
+  value = "var.sample3"
 }
