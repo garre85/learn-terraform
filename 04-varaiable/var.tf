@@ -1,12 +1,12 @@
 #defining variable block type
 
-variable "sample"{
-   default = "Hello World"
-}
+#variable "sample"{
+#   default = "Hello World"
+#}
 
-output "sample" {
-  value = var.sample
-}
+#output "sample" {
+#  value = var.sample
+#}
 
 
 #Default variable type
