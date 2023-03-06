@@ -1,0 +1,1 @@
+sample4 = "Hellow sample4 from auto"
