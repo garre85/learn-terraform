@@ -50,3 +50,11 @@ variable "sample4" {}
 output "sample4" {
   value = var.sample4
 }
+
+#cli
+
+variable "cli" {}
+
+output "cli" {
+  value = var.cli
+}
