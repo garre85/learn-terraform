@@ -32,8 +32,8 @@ output "sample2" {
 #Map variable type
 variable "sample3" {
   default = {
-    string ="Hello sample3"
-    number = 1000
+    string = "Hello sample3",
+    number = 1000,
     boolean= true
   }
 }
